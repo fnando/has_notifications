@@ -5,9 +5,6 @@ This plugin was created to act as a proxy between different notification
 systems based on the user's preferences. IT DOESN'T IMPLEMENT ANY NOTIFICATION 
 SYSTEM.
 
-**WORK IN PROGRESS:** I wrote this code without running any code, some 
-probably won't work! This is called _blind faith programming_! :P
-
 Instalation
 -----------
 
@@ -82,11 +79,5 @@ using [mail_queue](http://github.com/fnando/mail_queue)
 
 A sender should have a `deliver` method. The options hash is set as instance 
 attribute named `@options`.
-
-TO-DO
------
-
-* Check if is working
-* Write specs
 
 Copyright (c) 2008 Nando Vieira, released under the MIT license
