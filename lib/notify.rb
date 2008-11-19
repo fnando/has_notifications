@@ -28,10 +28,12 @@ module Notify
   end
   
   class Base
-    attr_accessor :options
-    
     def initialize(options)
       @options = options
+    end
+    
+    def options
+      @options
     end
   end
   
